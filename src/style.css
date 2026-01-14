@@ -1,0 +1,13 @@
+:root {
+  --dark: #000000;
+  --light: #332f2f;
+  --blue: #101ed9;
+  --blue: #1c227c;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
