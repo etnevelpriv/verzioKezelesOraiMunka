@@ -1,12 +1,15 @@
 :root {
   --dark: #000000;
-  --light: #332f2f;
+  --light: #bfc3e1;
   --blue: #101ed9;
   --blue: #1c227c;
 }
 
 body {
   height: 100vh;
+  background-color: var(--dark);
+  font-family: monospace;
+  color: var(--light);
 }
 
 .container {
@@ -14,6 +17,37 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+input {
+  height: 30px;
+  background: transparent;
+  outline: none;
+  border: 2px solid var(--blue);
+  color: var(--light);
+}
+
+input:active {
+  border-color: var(--light);
+}
+
+.container button {
+  background-color: transparent;
+  border: 2px solid var(--light);
+  color: var(--light);
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.container button:hover {
+  background-color: var(--blue);
+  border: 2px solid var(--light);
+  color: var(--light);
 }
 
 footer {
