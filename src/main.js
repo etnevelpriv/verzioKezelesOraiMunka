@@ -6,5 +6,5 @@ const sendForm = function (e) {
   console.log('reset kesz');
   e.preventDefault();
 };
-
+ 
 document.getElementById('sendFormButton').addEventListener('click', sendForm);
