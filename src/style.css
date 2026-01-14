@@ -5,9 +5,23 @@
   --blue: #1c227c;
 }
 
+body {
+  height: 100vh;
+}
+
 .container {
   margin: 0 auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
